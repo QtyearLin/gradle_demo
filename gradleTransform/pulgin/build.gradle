@@ -1,0 +1,20 @@
+apply from: 'upload_nexus.gradle'
+dependencies {
+    //gradle sdk
+    compile gradleApi()
+    //groovy sdk
+    compile localGroovy()
+    compile 'com.android.tools.build:gradle:3.6.4'
+}
+
+//apply plugin: 'kotlin'
+apply plugin: 'java-gradle-plugin'
+
+gradlePlugin {
+    plugins {
+        version {
+            id = 'com.tyearlin.plugin.test'
+            implementationClass = 'com.tyearlin.plugin.MyPlugin'
+        }
+    }
+}

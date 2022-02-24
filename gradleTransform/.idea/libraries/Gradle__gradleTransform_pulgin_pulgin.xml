@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: gradleTransform.pulgin.pulgin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pulgin/build/libs/pulgin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
